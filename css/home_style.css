@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@font-face {
+    font-family: minecraftes;
+    src: url(../fonts/Minecrafter.Reg.ttf);
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.header .logo, .header .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .logo h1 {
+    font-family: minecraftes;
+    color: #505C25;
+    margin-right: 15px;
+}
+
+.header .profile div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header .profile div span, .header .profile div p {
+    font-family: Roboto;
+    margin: 0;
+}
+
+.header .profile div span {
+    font-weight: bold;
+}
+
+.header .profile img {
+    margin: 0 25px;
+}
